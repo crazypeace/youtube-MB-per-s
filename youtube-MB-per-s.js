@@ -12,7 +12,7 @@
 (function() {
     'use strict';
 
-// 目标元素的选择器 (元素 1)
+    // 目标元素的选择器 (元素 1)
     const targetSelector = "#movie_player > div.html5-video-info-panel.ytp-sfn > div > div:nth-child(9) > span > span:nth-child(2)";
     let element2 = null; // 用于存储我们创建的元素 2，以便后续更新
 
