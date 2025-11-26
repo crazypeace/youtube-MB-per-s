@@ -12,6 +12,8 @@
 (function() {
     'use strict';
 
+    // Your code here...
+    
     // 目标元素的选择器 (元素 1)
     const targetSelector = "#movie_player > div.html5-video-info-panel.ytp-sfn > div > div:nth-child(9) > span > span:nth-child(2)";
     let element2 = null; // 用于存储我们创建的元素 2，以便后续更新
@@ -68,5 +70,4 @@
     // 设置定时器
     // 将 timer 存储在变量中，如果你想在某个条件下停止它，可以使用 clearInterval(timer)
     const timer = setInterval(updateRate, 10000);
-
 })();
